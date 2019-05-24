@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="student_list_template" name="Student list">
+        <div id="wrap" class="container">
+            <h1>Books</h1>
+            <t t-foreach="students" t-as="st">
+                <div class="row">
+                    <span t-field="st.name" />,
+                    <span t-field="st.age" />,
+                </div>
+            </t>
+        </div>
+    </template>
+</odoo>

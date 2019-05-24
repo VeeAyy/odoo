@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<odoo>
+    <act_window id="action_school_student"
+                name="School Student"
+                res_model="school.student"
+                view_mode="tree,form"/>
+
+    <menuitem   id="menu_school"
+                name="School"/>
+
+    <menuitem   id="menu_school_student"
+                name="Students"
+                parent="menu_school"
+                action="action_school_student"/>
+
+
+</odoo>
